@@ -1,2 +1,4 @@
 # GameMaster
-Exercise is creational design patterns, combines abstract factory and builder.
+This repo was an exercise in creational design patterns, combines abstract factory and builder.
+
+The idea is to create a sort of the game-master entity to use within a game.  The player/client will move through the game and based on some criteria (such as player health and player progress), the game-master entity will pose appropriate challenges to the player.  So if the player is at full health halfway through the game, the game-master should send a difficult challenge to the user.  If the player is severely injured at the beginning of the game, the game-master should send only easy challenges to the player.  In addition, since my game is telling a story, the game-master will need to switch between sending scripted events which always occur and random events which serve to add variety to the game (or to motivate the player to keep moving along).
